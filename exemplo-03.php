@@ -9,6 +9,16 @@ $bloqueado = false;
 /////////////////////////////////
 $frutas = array("abacaxi", "laranja", "manga");
 
-echo $frutas[2];
+///echo $frutas[2];
+
+
+#$nascimento = new DataTime();
+
+#var_dump($nascimento);
+#var_dump($nascimento);
+
+$arquivo = fopen("exemplo-03.php", "r");
+
+var_dump($arquivo);
 
 ?>
